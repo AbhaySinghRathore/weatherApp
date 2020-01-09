@@ -8,16 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <img src="public/weather.png" style="position: absolute;left: 0;right: 0;margin: auto;top: 3vh;" width="5%">
     <div class='flexbox'>
         <div class="left">
-            <u>Current </u>
-            <p id="city"></p>
-            <p id="temperature"></p>
+            <u><h3>CURRENT</h3></u>
+            <p id="city">
+                <form action="">
+                    <label for="city">City</label><br>
+                    <textarea name="city" id="city" cols="30" rows="10" placeholder="your city name here"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </p>
+            <p id="temperature">
+                Temperature
+            </p>
         </div>
         <div class="right">
-           <u> Forecast</u>
-           <p id="today"></p>
-           <p id="tomorrow"></p>
+            <u><h3>FORECAST</h3></u>   
+            <p id="today">
+                Today
+            </p>
+           <p id="tomorrow">
+               Tomorrow
+           </p>
         </div>
     </div>
 </body>
