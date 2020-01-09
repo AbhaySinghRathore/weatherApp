@@ -17,3 +17,11 @@ A Simple weather app, allows you to know the current weather and the forecast.
 5) Milind Topno
 
 6) Abhijeet Manhas
+
+# To Run
+
+````bash
+npm install
+export weather_api_key=<Your api key>
+node index.js
+````
