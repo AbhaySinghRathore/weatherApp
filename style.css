@@ -14,27 +14,19 @@ body {
     background-color: #F5A72F;
     color: white;
     text-align: right;
-    font-size: 300%;
-    padding-right: 2.5%;
+    padding: 5%;
 }
-
+/* 
 .left textarea {
     color: #F5A72F;
     height: 3rem;
     font-size: 1.5rem;
     margin: 0;
 }
+*/
 
 .left button {
-    color: #F5A72F;
     background-color: black;
-    border: none;
-    margin: 0;
-    height: 5vh;
-    position: relative;
-    bottom: 2vh;
-    right: 1%;
-    font-size: 1.5rem;
 }
 
 textarea::placeholder {
@@ -46,6 +38,5 @@ textarea::placeholder {
     width: 50%;
     height: 100vh;
     color: #F5A72F;
-    font-size: 300%;
-    padding-left: 2.5%;
+    padding: 5%;
 }

@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+
 <body>
     <img src="public/weather.png" style="position: absolute;left: 0;right: 0;margin: auto;top: 3vh;" width="5%">
     <div class='flexbox'>
         <div class="left">
-            <u><h3>CURRENT</h3></u>
+            <h1><u>WEATHER</u></h1>
             <p id="city">
                 <form action="">
-                    <label for="city">City</label><br>
-                    <textarea name="city" id="city" cols="30" rows="10" placeholder="your city name here"></textarea>
-                    <button type="submit">Submit</button>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="City name"
+                            aria-label="City name" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="submit">SUBMIT</button>
+                        </div>
+                    </div>
                 </form>
             </p>
             <p id="temperature">
-                Temperature
+                <h3>TEMPERATURE</u></h3>
             </p>
         </div>
         <div class="right">
-            <u><h3>FORECAST</h3></u>   
+            <h1><u>FORECAST</u></h1>
             <p id="today">
-                Today
+                <h3>TODAY</h3>
             </p>
-           <p id="tomorrow">
-               Tomorrow
-           </p>
+            <p id="tomorrow">
+                <h3>TOMORROW</h3>
+            </p>
         </div>
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
 </html>
